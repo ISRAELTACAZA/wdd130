@@ -30,12 +30,13 @@ main {
 }
 
 aside {
-    background-color: lightgray;
-    width: auto;
-    border:     1px solid black;
-    padding: 10px;
+    background-color: #eee;
+    width: 20rem;
+    border:     1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
     margin: 1rem;
-    color: green;
+    color: #333;
+    text-align: center;
 }
 
 aside img {
