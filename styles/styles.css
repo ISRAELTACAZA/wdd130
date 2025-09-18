@@ -1,7 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+}
+
+
 :root {
-    background-color: lightskyblue;
+    background-color: rgb(165, 213, 243);
   --gray--color--changing--to--var--but--same--color: gray;
-  --black--color--repeated--changing--to--green: green;
+  --black--color--repeated: black;
   /*--main-color: hotpink;
   --pane-padding: 5px 42px;*/
 }
@@ -24,12 +36,13 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid var(--black--color--repeated--changing--to--green);
+    border: 1px solid var(--black--color--repeated);
     padding: 2px;
     box-shadow: 0 0 30px var(--gray--color--changing--to--var--but--same--color);
 }
 
 p {
+    margin: 1rem;
     padding: 10px;
 }
 
@@ -38,12 +51,8 @@ main {
 }
 
 aside {
-    background-color: #eee;
-    width: 20rem;
-    border:     1px solid var(--black--color--repeated--changing--to--green);
-    padding: 1rem;
-    margin: 1rem;
-    color: var(--black--color--repeated--changing--to--green);
+    position: relative;
+    width: 20em;
     text-align: center;
 }
 
@@ -52,15 +61,43 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position : absolute;
+    color: yellow;
+    top: 40px;
+    left: 80px;
+
+}
+
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px var(--gray--color--changing--to--var--but--same--color);
+    float: right;
+    margin: 0 0 1em 1em;
 }
 
 p {padding: 0;}
 
 footer  {
-    margin-top: 15px;
-    border-top: 1px solid  var(--black--color--repeated--changing--to--green);
+    margin-top: 1em;
+    border-top: 1px solid  var(--black--color--repeated);
     text-align:     center;
+}
+
+/* Class Selectors */
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / .1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
+
 }
