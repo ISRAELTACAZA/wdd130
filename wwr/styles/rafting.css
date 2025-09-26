@@ -112,6 +112,7 @@ h2 {
     margin: 0 0.25rem 0 120px;
     width: auto;
     height: 100px;
+    grid-column: 1/2;
 }
 
 .navigation a {
