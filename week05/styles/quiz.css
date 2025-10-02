@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main {
+    max-width: 500px;
+    background-color: #6cae75 ;
+    color: #fff;
+    
+}
+
+h1 {
+    margin: 0.5rem;
+    color: navy;
+}
+
+form {
+  color: #111;
+  background-color: #f5a65b;
+  
+}
+
+input, textarea, select, button {
+    padding: .75rem;
+    min-width: 350px;
+}
+
+button {
+    background-color: navy;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    box-shadow: 0 0 30px #eee;
+}
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+
+code {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 90%;
+    
+}
+
+.quiz-item{
+    border: none;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.coco code{
+    margin: 10px;
+    text-align: center;
+}
+
+.coco input{
+    margin-top: 10px;
+}
+
+button:hover {
+  background-color: darkgreen;
+  color: red;
+}
