@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <meta name="description" content="User poll form">
+    <meta name="author" content="Israel Tacaza a BYU student">
+    <title>WD130 HTML Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"-->
+</head>
+<header>
+    <h1>HTML FORM</h1>
+</header>
+
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="usermail">Email:</label>
+                    <input type="email" name="useremail" id="useremail">
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select>
+
+
+                    <label for="pet">Do you have a pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div class="text1">
+                    <label id="text2" for="feedback">List the place you have lived:</label>
+
+                    <textarea name="feedback" id="feedback" rows="4"
+                        placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+
+
+                </div>
+
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©️2025 🐻 Israel Tacaza 🐻 La Paz, Bolivia</p>
+    </footer>
+</body>
