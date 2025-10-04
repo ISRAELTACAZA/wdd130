@@ -162,7 +162,7 @@ h2 {
 
 .navigation a {
     display: inline-flex;
-    color: var(--secondary--color);
+    color: #ffd8b9;
     padding: 20px;
     text-decoration: none;
     font-size: 1.2rem;
