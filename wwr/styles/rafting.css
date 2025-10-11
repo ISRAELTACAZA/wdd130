@@ -367,6 +367,10 @@ section.trip {
     grid-column: 1 / 2;
     
 }
+#para2 {
+    grid-column: 1 / 2;
+    
+}
 
 section.trip img {
     width: 260px;
@@ -432,10 +436,9 @@ section.trip h2 {
 
 #history4 {
     grid-column: 1 / 6;
-    
-    
-
-    
+}
+#history6 {
+    grid-column: 1 / 6;
 }
 
 section.history5 {
