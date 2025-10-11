@@ -354,16 +354,19 @@ button:hover {
 section.trip {
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 60px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px auto auto;
     
 }
 
-
+#para1 {
+    grid-column: 1 / 2;
+    
+}
 
 section.trip img {
     width: 260px;
